@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="Neversleep"]/exclusionTags</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/GeneDef[defName="Neversleep"]/exclusionTags</xpath>
+            <value><li>Sleeping</li></value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/GeneDef[defName="Neversleep"]</xpath>
+            <value>
+                <exclusionTags>
+                    <li>Sleeping</li>
+                </exclusionTags>
+            </value>
+        </nomatch>
+    </Operation>
+</Patch>
