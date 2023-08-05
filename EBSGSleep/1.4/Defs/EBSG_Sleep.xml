@@ -266,6 +266,11 @@
         <iconPath>EBSG/Gene_Diurnal</iconPath>
         <displayCategory>Sleep</displayCategory>
         <displayOrderInCategory>50.8</displayOrderInCategory>
+        <forcedTraits>
+            <li>
+                <def>EBSG_EarlyBird</def>
+            </li>
+        </forcedTraits>
         <suppressedTraits>
             <li>
                 <def>NightOwl</def>
@@ -298,6 +303,11 @@
                 <def>NightOwl</def>
             </li>
         </forcedTraits>
+        <suppressedTraits>
+            <li>
+                <def>EBSG_EarlyBird</def>
+            </li>
+        </suppressedTraits>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
         <symbolPack>
